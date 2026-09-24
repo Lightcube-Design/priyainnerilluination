@@ -317,14 +317,14 @@
   @media (max-width:840px){.test-grid{grid-template-columns:1fr;}}
   .test-card{
     background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:26px;
-    display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;
+    display:flex;flex-direction:column;justify-content:center;gap:16px;position:relative;overflow:hidden;
   }
   .test-card::before{
     content:"\201C";position:absolute;top:-6px;right:18px;font-family:"Fraunces";font-size:88px;
     color:var(--violet);opacity:0.1;line-height:1;pointer-events:none;
   }
   .stars{color:var(--gold);font-size:15px;letter-spacing:2px;}
-  .test-card p.quote{font-size:15px;color:var(--ink-soft);flex:1;}
+  .test-card p.quote{font-size:15px;color:var(--ink-soft);}
   .test-who{display:flex;align-items:center;gap:12px;}
   .test-avatar{
     width:40px;height:40px;border-radius:50%;flex:none;
