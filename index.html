@@ -119,12 +119,7 @@
     border-bottom:1px solid var(--border);
   }
   .nav-row{display:flex;align-items:center;justify-content:space-between;padding-block:14px;gap:16px;}
-  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
-  .brand-mark{
-    width:36px;height:36px;border-radius:50%;flex:none;
-    background:radial-gradient(circle at 32% 28%, var(--cyan), var(--violet) 55%, var(--magenta) 100%);
-    box-shadow:0 0 0 3px color-mix(in srgb, var(--violet) 18%, transparent);
-  }
+  .brand{display:flex;align-items:center;text-decoration:none;}
   .brand-text{font-family:"Fraunces";font-style:italic;font-size:20px;color:var(--ink);line-height:1.1;}
   .brand-text small{display:block;font-family:"Manrope";font-style:normal;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-faint);margin-top:2px;}
   nav.links{display:flex;gap:26px;font-size:14.5px;font-weight:600;}
@@ -451,7 +446,6 @@
 <header class="site-nav">
   <div class="wrap nav-row">
     <a class="brand" href="#home">
-      <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text">Inner Illumination<small>Heal &middot; Grow &middot; Transform</small></span>
     </a>
     <nav class="links">
