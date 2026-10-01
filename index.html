@@ -373,7 +373,15 @@
   .footer-links{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;color:var(--on-cosmic-soft);margin-top:26px;}
   .footer-bottom{
     border-top:1px solid rgba(255,255,255,0.12);margin-top:40px;padding-top:22px;
-    display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--on-cosmic-soft);
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--on-cosmic-soft);
+  }
+  .footer-credit{
+    display:inline-flex;align-items:center;gap:8px;
+    text-decoration:none;color:var(--on-cosmic-soft);line-height:1;
+  }
+  .footer-credit:hover{color:#fff;}
+  .footer-credit img{
+    height:1em;width:auto;display:block;
   }
 
   /* ---------- POPUP ---------- */
@@ -740,7 +748,10 @@
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Priyadarshini's Inner Illumination. All rights reserved.</span>
-        <span>Heal &middot; Grow &middot; Transform</span>
+        <a class="footer-credit" href="https://lightcubedesign.com/" target="_blank" rel="noopener">
+          Created By
+          <img src="Lightcube%20Design%20Logo%20for%20footer-02.svg" alt="Lightcube Design">
+        </a>
       </div>
     </div>
   </footer>
